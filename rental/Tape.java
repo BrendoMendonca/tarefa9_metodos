@@ -1,4 +1,3 @@
-// Tape.java
 public class Tape {
     public static final int NORMAL = 0;
     public static final int LANCAMENTO = 1;

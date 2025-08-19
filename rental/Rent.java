@@ -1,4 +1,3 @@
-// Rent.java
 public class Rent {
     private Tape tape;
     private int diasAlugada;

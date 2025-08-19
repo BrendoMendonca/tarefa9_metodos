@@ -1,4 +1,3 @@
-// Client.java
 import java.util.*;
 
 public class Client {
@@ -22,11 +21,11 @@ public class Client {
         String resultado = "Registro de Alugueis de " + getNome() + fimDeLinha;
 
         for (Rent aluguel : tapesAlugadas) {
-            // Mostra valores para este aluguel
+            //mostra valores para este aluguel
             resultado += "\t" + aluguel.getTape().getTitulo() + "\t" + aluguel.getCharge() + fimDeLinha;
         }
 
-        // Adiciona rodapé
+        //adiciona rodapé
         resultado += "Valor total devido: " + getTotalCharge() + fimDeLinha;
         resultado += "Voce acumulou " + getTotalFrequentRenterPoints() + " pontos de alugador frequente";
         return resultado;

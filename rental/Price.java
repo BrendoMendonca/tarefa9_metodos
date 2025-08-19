@@ -1,4 +1,3 @@
-// Price.java
 public abstract class Price {
     abstract int getPriceCode();
 
@@ -38,7 +37,7 @@ class LancamentoPrice extends Price {
 
     @Override
     public int getFrequentRenterPoints(int daysRented) {
-        // Adiciona bônus para aluguel de um lançamento por pelo menos 2 dias
+        //adiciona bônus para aluguel de um lançamento por pelo menos 2 dias
         if (daysRented > 1) {
             return 2;
         }
